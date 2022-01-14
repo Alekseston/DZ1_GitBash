@@ -44,7 +44,7 @@ touch file_01.txt file_02.txt file_03.txt file_04.json file_05.json;
 mkdir foldername04 foldername05 foldername06;
 ls -la;
 mv file_01.txt file_04.json /c/DZ_Aleksei_Z/DZ1_GitBash/foldername02
-или создаем файл в котором первой строкой пишем #!/bin/bash, а последующими необходимые команды. Затем
+или создаем файл в котором первой строкой пишем #!/bin/bash, затем пишем необходимые команды,
 делаем файл исполняемым chmod +x ./file_01.txt и запускаем его набрав ./file_01.txt
 Содержание файла file_01.txt
 #!/bin/bash
